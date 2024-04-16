@@ -7,7 +7,8 @@ const FabBtn = () => {
   const classes = useStyles();
 
   const openWhatsapp = () => {
-    window.open('https://api.whatsapp.com/send?phone=+971505683891', "blank")
+    // window.open('https://api.whatsapp.com/send?phone=+971505683891', "blank")
+    window.open('https://wa.me/+971505683891', "blank")
   }
   
   return (
