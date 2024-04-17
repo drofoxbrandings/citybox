@@ -4,7 +4,7 @@ import useStyles from "./FloatingActionStyles";
 import CloseIcon from "@material-ui/icons/Close";
 import { Link } from "react-router-dom";
 
-const FloatingActionBtn = ({ icon, text, metaData }) => {
+const FloatingActionBtn = ({ icon, text, metaData, id }) => {
   const [IsOpen, setIsOpen] = useState(false);
   const handleOpen = () => {
     // setIsOpen(!IsOpen);
@@ -19,6 +19,7 @@ const FloatingActionBtn = ({ icon, text, metaData }) => {
           color="primary"
           label="add"
           onClick={handleOpen}
+          id={id}
         >
           {icon}
         </Fab>

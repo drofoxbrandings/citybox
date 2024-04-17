@@ -12,7 +12,7 @@ const FabBtn = () => {
   }
   
   return (
-    <Fab size="small" color="primary" aria-label="add" className={classes.whatsAppBtn} onClick={openWhatsapp}>
+    <Fab size="small" color="primary" aria-label="add" className={classes.whatsAppBtn} onClick={openWhatsapp} id="cbxBtnWhatsapp">
       <WhatsAppIcon />
     </Fab>
   );

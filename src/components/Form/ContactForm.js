@@ -73,7 +73,8 @@ const ContactForm = () => {
       enableReinitialize
     >
       {(formikProps) => (
-        <Form 
+        <Form
+        id="cbxContactForm"
         onSubmit={formikProps.handleSubmit} 
         className={classes.form} 
         name="contact" 
