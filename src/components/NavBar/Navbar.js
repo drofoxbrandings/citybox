@@ -26,6 +26,10 @@ const Navbar = () => {
       menuItemLink: "/services",
     },
     {
+      menuItemTxt: "Blog",
+      menuItemLink: "/blog",
+    },
+    {
       menuItemTxt: "Contact us",
       menuItemLink: "/contact",
     },

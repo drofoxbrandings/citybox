@@ -9,6 +9,8 @@ import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import TrackShipment from "./pages/TrackShipment";
 import TermsConditions from "./pages/TermsConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Blog from "./pages/Blog";
+import CargoToCanada from "./pages/Blogs/CargoToCanada";
 
 const App = () => {
   const theme = createTheme({
@@ -42,6 +44,12 @@ const App = () => {
               </Route>
               <Route path="/services" exact>
                 <Services />
+              </Route>
+              <Route path="/blog" exact>
+                <Blog />
+              </Route>
+              <Route path="/blog/cargo-to-canada" exact>
+                <CargoToCanada />
               </Route>
               <Route path="/contact" exact>
                 <Contact />
